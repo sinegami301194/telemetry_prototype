@@ -1,9 +1,9 @@
-# telemetry_prototype
+# Запуск на Ubuntu из папки проекта:
 
-Запуск на Ubuntu из папки проекта:
-
+```
 mkdir build
 cd build
 cmake ..
 make -j12 all
 ./telemetry_app
+```
