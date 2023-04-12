@@ -22,7 +22,7 @@ set(SOURCES
   src/telemetry_struct.cpp
 )
 
-add_library(telemetry2 ${HEADERS} ${SOURCES})
+add_library(telemetry2 SHARED  ${HEADERS} ${SOURCES})
 target_include_directories(telemetry2 PUBLIC ./include)
 
 set(thirdparty_modules
